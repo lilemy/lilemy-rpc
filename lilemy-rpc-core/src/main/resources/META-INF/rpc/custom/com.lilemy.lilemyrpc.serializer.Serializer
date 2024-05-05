@@ -1,0 +1,2 @@
+json=com.lilemy.lilemyrpc.serializer.JsonSerializer
+kryo=com.lilemy.lilemyrpc.serializer.KryoSerializer

@@ -1,5 +1,6 @@
 package com.lilemy.lilemyrpc.config;
 
+import com.lilemy.lilemyrpc.serializer.SerializerKeys;
 import lombok.Data;
 
 /**
@@ -27,5 +28,10 @@ public class RpcConfig {
      * 服务器端口号
      */
     private Integer serverPort = 8080;
+
+    /**
+     * 序列化器
+     */
+    private String serializer = SerializerKeys.JDK;
 
 }

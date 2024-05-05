@@ -1,0 +1,2 @@
+jdk=com.lilemy.lilemyrpc.serializer.JdkSerializer
+hessian=com.lilemy.lilemyrpc.serializer.HessianSerializer
