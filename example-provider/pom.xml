@@ -22,7 +22,7 @@
         </dependency>
         <dependency>
             <groupId>com.lilemy</groupId>
-            <artifactId>lilemy-rpc-easy</artifactId>
+            <artifactId>lilemy-rpc-core</artifactId>
             <version>0.0.1</version>
         </dependency>
         <dependency>

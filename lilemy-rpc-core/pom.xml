@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lilemy</groupId>
-    <artifactId>example-consumer</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>lilemy-rpc-core</artifactId>
+    <version>0.0.1</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -16,14 +16,14 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.lilemy</groupId>
-            <artifactId>example-common</artifactId>
-            <version>0.0.1</version>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.4.14</version>
         </dependency>
         <dependency>
-            <groupId>com.lilemy</groupId>
-            <artifactId>lilemy-rpc-core</artifactId>
-            <version>0.0.1</version>
+            <groupId>io.vertx</groupId>
+            <artifactId>vertx-core</artifactId>
+            <version>4.5.7</version>
         </dependency>
         <dependency>
             <groupId>cn.hutool</groupId>
@@ -35,6 +35,12 @@
             <artifactId>lombok</artifactId>
             <version>1.18.30</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
