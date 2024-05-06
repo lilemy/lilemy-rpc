@@ -1,2 +1,4 @@
-jdk=com.lilemy.lilemyrpc.serializer.JdkSerializer
+jdk=com.lilemy.lilemyrpc.serializer.JDKSerializer
 hessian=com.lilemy.lilemyrpc.serializer.HessianSerializer
+json=com.lilemy.lilemyrpc.serializer.JsonSerializer
+kryo=com.lilemy.lilemyrpc.serializer.KryoSerializer

@@ -15,6 +15,12 @@
     </properties>
 
     <dependencies>
+        <!-- Etcd Java 客户端 -->
+        <dependency>
+            <groupId>io.etcd</groupId>
+            <artifactId>jetcd-core</artifactId>
+            <version>0.7.7</version>
+        </dependency>
         <!-- 序列化 -->
         <dependency>
             <groupId>com.caucho</groupId>
